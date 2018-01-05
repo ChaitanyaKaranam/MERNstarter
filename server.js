@@ -16,6 +16,8 @@ app.get('/',(req,res)=>{
 
 // This is sample Test
 
+// This is sample test 2
+
 app.use('/api',sample);
 
 app.listen(PORT,()=>console.log(`Server Started at port ${PORT}`));
